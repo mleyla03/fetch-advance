@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    align-items: center;
+}
+#list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

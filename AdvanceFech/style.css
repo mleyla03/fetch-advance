@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#list{
+    background-color: rgb(255, 247, 247);
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgb(249, 233, 233);
+    border-radius: 10px;
+    list-style: none;
+    
+}
+a{
+  
+    text-decoration: none;
+    color: #ec8b8b;
+    margin-right: 100px;
+}
+.add{
+  background-color: aqua;
+  border:none;
+  height: 35px;
+  width: 160px;
+  color: white;
+  border-radius: 10px;
+}
+
+.delete{
+    background-color: rgb(222, 34, 34);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.edit{
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(177, 54, 9);
+}
+#edit button{
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(177, 54, 9);
+}
